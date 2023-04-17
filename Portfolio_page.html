@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+  </head>
+  <body>
+    <!-- navbar section -->
+    <header>
+      <ul style="list-style-type: none">
+        <li>
+          <a href="./index.html">About </a>
+        </li>
+        <li>
+          <a href="#project">Project</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- main content -->
+    <main>
+      <section id="about">
+        <h3 align="center">About Me</h3>
+        <p>
+            My name is Nikita Jagdale.
+            I did my Graduation in BCA from North Maharashtra University (2019).
+             after that i did my MCA from open university (2022). Currently doing full 
+             stack development course from AccioJobs. Enthusiastic about learning full stack development. 
+             I'm passionate about software development and I'm looking forward to getting to work on new 
+             projects in the near future. knowledge of Java, HTML, CSS, Javascripts, DSA, SQl,
+              DBMS.Looking for an entry-level position as a Software Engineer in a dynamic firm that 
+              values my analytical and technical skills and provides scope for updating my knowledge,
+               I seek a company that will help me contribute to its development while concurrently aiding
+                my personal
+         growth.
+        </p>
+          <p>
+            I am a dedicated, organized and methodical individual. 
+            I have good interpersonal skills, am an excellent team worker and am keen and very willing 
+            to learn and develop new skills. I am reliable and dependable and often seek new 
+            responsibilities within a wide range of employment areas.
+        </p>
+          <p>
+            I am an enthusiastic, self-motivated, reliable, responsible and hard working person. 
+            I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. 
+            I am able to work well under pressure and adhere to strict deadlines.
+        </p>
+          <p>
+            m a nice fun and friendly person, I’m honest and punctual, I work well in a 
+            team but also on my own as I like to set myself goals which I will achieve, 
+            I have good listening and communication skills. I have a creative mind and am always up for new challenges.
+             I am well organized and always plan ahead to make sure I manage my time well.
+        </p>
+      </section>
+      <section id="contact">
+        <h3 align="center">Contact Me</h3>
+        <form action="./script.js" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" placeholder="type your name" name="name" value="suman" required maxlength="50" >
+            </div>
+            <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="100" rows="5"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="tel">Phone No.</label>
+                <input type="tel" value="6526309880" pattern="\d{5}([- ]*)\d{6}" required>
+            </div>
+            <br>
+
+            <div>
+                <label for="date-time">Date and Time of appointment</label>
+                <input type="datetime-local">
+            </div>
+
+            <div>
+                <label for="contact-type">Contact via call or whatsapp?</label>
+                <label for="call">Call: </label>
+                <input type="radio" name="contact-type" value="call">
+
+                <label for="wtsp">Whatsapp: </label>
+                <input type="radio" name="contact-type" value="wtsp">
+            </div>
+            <br>
+
+            <div>
+                <label for="time-slot">Time Slot:</label>
+                <label for="11-12">11am-12pm</label>
+                <input type="checkbox">
+
+                <label for="4-5">4pm-5pm</label>
+                <input type="checkbox">
+
+                <label for="12-11">11pm-12am</label>
+                <input type="checkbox">
+            </div>
+            <br>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+      </section>
+      <section id="project">
+        <h3 align="center">Project</h3>
+        <table border="1" cellspacing="0" align="center">
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>description</th>
+                <th>project link</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ping Pong Game</td>
+                <td>The main objective of this game is to gain the highest
+                    score.
+                    This game is an interesting addictive fun game.
+                    This is a human vs human two-player game and the
+                    players have to play from both sides with the help of up
+                    and down keys.
+                    Designed the game rules, ball and paddle movements,
+                    collision detection, and score tracking.
+                    Utilized object-oriented programming concepts such
+                    as inheritance, encapsulation, and polymorphism to
+                    create a scalable and maintainable codebase.</td>
+                <td><a href="https://github.com/NikitaJagdale88/Sapling-Project-Pong-Game">https://github.com/NikitaJagdale88/Sapling-Project-Pong-Game</a></td>
+            </tr>
+           
+             <tr>
+                <td>2</td>
+                <td>Heart Diseases Detection System</td>
+                <td>The main objective of this is to develop prototype Heart
+                    disease Prediction System using, Naive Bayes . Using Java
+                    JDK1.1.7 and MS-Access.
+                    It helps to determine blood pressure, cholesterol, and obesity
+                    for prediction.
+                    It predicts the likelihood of patients getting heart disease</td>
+                <td><a href="https://github.com/NikitaJagdale88/Sapling-Project-Pong-Game">https://github.com/NikitaJagdale88/Sapling-Project-Pong-Game</a></td>
+            </tr>
+            
+            <tr>
+                <td>3</td>
+                <td>Courier Management System - Academic</td>
+                <td>n this project we created and a desktop application for courier
+                    Courier Management System - Academic
+                    Jan 2019 - March 2019
+                    management system. Using Platform: C# in Visual Studio 2015,
+                    MS Access</td>
+                <td><a href="https://github.com/NikitaJagdale88/First-frontend-Project">https://github.com/NikitaJagdale88/First-frontend-Project</a></td>
+            </tr>
+             
+            <tr>
+                <td>4</td>
+                <td>
+                    First-frontend-Project
+                    </td>
+                <td>this is my first web page application. It contais information about the beagle breed of dog.</td>
+                <td><a href="https://github.com/NikitaJagdale88/First-frontend-Project">https://github.com/NikitaJagdale88/First-frontend-Project</a></td>
+            </tr>
+        </table>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <h3 align="center">You can also connect with me on:</h3>
+        <div align="center">
+            <a href="nikitajagdale88@gmail.com" target="_blank">gmail</a>
+            <a href="https://github.com/NikitaJagdale88" target="_blank">github</a>
+            <a href="https://www.linkedin.com/in/nikita-jagdale-52750718b/" target="_blank">linkedin</a>
+        </div>
+
+
+    </footer>
+  </body>
+</html>

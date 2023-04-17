@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form Car</title>
+</head> 
+<body>
+    <form method="post">
+        <label for="name">Name*</label>
+        <input type="text" id="name" placeholder="Name" required>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <label for="gender">Gender*</label>
+        <input type="radio" name="gender" id="gender_m" required>
+        <label for="gender_m">Male</label>
+        <input type="radio" name="gender" id="gender_f" required>
+        <label for="gender_f">Female</label>
+
+        <label for="car">Car Brands*</label>
+        <select id="cars" required>
+            <option disabled selected>--Please choose an option--</option>
+            <option value="bmw"> BMW </option>
+            <option value="audi"> Audi </option>
+            <option value="mercedez"> Mercedez </option>
+        </select>
+
+        <label for="age">Age*</label>
+        <input type="number" id="age" placeholder="Age" required>
+
+        <label for="dob">DOB*</label>
+        <input type="date" id="dob" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+
+        <label for="password">Password*</label>
+        <input type="password" id="password" placeholder="Password" required>
+
+        <!-- <label for="checkbox">Checkbox*</label> -->
+        <input type="checkbox" id="tos" readonly>
+        <label for="tos">I agree to TOS</label>
+
+        <button type="submit">submit</button>
+
+
+    </form>
+</body>
+</html>

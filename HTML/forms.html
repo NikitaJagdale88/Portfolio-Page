@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form>
+        <h2>General Details</h2>
+        <div>
+            <lebal for="username"> Username :</lebal><br>
+            <input type="text" name="username" placeholder="Enter username " readonly><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="fullname" > Fullname :</lebal><br>
+            <input type="text" name="fname" value="Nikita Jagdale" maxlength="20">
+        </div>
+        <br>
+        <div>
+            <lebal for="phonenumbwe"> Phonenumber :</lebal><br>
+            <input type="number" maxlength="10" required><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="email"> Email :</lebal><br>
+            <input type="email" required><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="gender"> Gender :</lebal><br>
+             Male: <input type="radio" name="gender"><br>
+             Female: <input type="radio" name="gender"><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="date"> Date and time :</lebal><br>
+            <input type="datetime-local"><br>
+            <input type="date"><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="month"> Month and Week and time :</lebal><br>
+            <input type="month"><br>
+            <input type="week"><br>
+            <input type="time"><br>
+        </div>
+        <br>
+        <div>
+            <lebal for="subject"> Subjects :</lebal><br>
+             HTML: <input type="checkbox" name="html"><br>
+             CSS: <input type="checkbox" name="css"><br>
+             JS: <input type="checkbox" name="js"><br>
+        </div>
+        <br>
+        <div>
+            <input type="color"><br>
+            <input type="range"><br>
+        </div>
+        <br>
+        <div>
+            <label for="subject"> Choose the Subject :</label>
+            <select name="subject" id="sub">
+                <option value="html"> HTML </option>
+                <option value="css"> CSS </option>
+                <option value="JS"> JS </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="address"> Address :</label>
+            <textarea name="text" cols="20" rows="20"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="file"><br>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" disabled>
+        </div>
+    </form>
+</body>
+</html>

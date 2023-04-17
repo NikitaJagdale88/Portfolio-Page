@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+    <style>
+        table, td ,th{
+           border: 1px solid black;
+           border-collapse: collapse;
+           text-align: center;
+           border-color: brown;
+           color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- vertical heading -->
+    <h3>Vertical Heading Table</h3>
+    <table>
+        <caption> Personal Info </caption>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Sandeep</td>
+            <td>32</td>
+            <td>US</td>
+        </tr>
+        <tr>
+            <td>Sandeep</td>
+            <td>32</td>
+            <td>US</td>
+        </tr>
+        <tr>
+            <td>Sandeep</td>
+            <td>32</td>
+            <td>US</td>
+        </tr>
+    </table>
+    <br>
+    <h3>Horizental Heading Table</h3>
+    <caption> Personal info </caption>
+    <table>
+        <!-- Horizenal heading -->
+        <tr>
+            <th rowspan="3">Name</th>
+            <td>Nikita</td>
+            <td>Sandeep</td>
+            <td>Mayur</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>32</td>
+            <td>23</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>Pune</td>
+            <td>Nashik</td>
+            <td>US</td>
+        </tr>
+        <tr>
+            <th>Addd</th>
+            <td>Sharma nager</td>
+            <td>California</td>
+            <td>Denmark</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th colspan="2">score</th>
+            <th>amount</th>
+        </tr>
+        <tr> 
+           <td rowspan="3">1000</td>
+           <td>min</td>
+           <td>200</td>
+        </tr>
+        <tr>
+            <td rowspan="3">max</td>
+           <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+        </tr>
+    </table>
+</body>
+</html>
